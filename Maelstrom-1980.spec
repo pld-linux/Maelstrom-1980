@@ -2,8 +2,8 @@ Summary:	Rockin' asteroids game - 1980 theme
 Summary(pl):	Gra, w której strzelasz do asteroidów - motyw 1980
 Name:		Maelstrom-1980
 Version:	1
-Release:	2
-License:	dunno
+Release:	3
+License:	unknown
 Group:		X11/Applications/Games
 # Source0-md5:	9e56052936121b1a8b904d4b36253b0b
 Source0:	http://www.devolution.com/~slouken/projects/Maelstrom/add-ons/Maelstrom_1980.zip
@@ -28,7 +28,8 @@ Motyw 1980 dla Maelstroma.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_gamedir}
 
-install %* $RPM_BUILD_ROOT%{_gamedir}
+install "%Maelstrom Sounds" $RPM_BUILD_ROOT%{_gamedir}/Maelstrom_Sounds.bin
+install "%Maelstrom Sprites" $RPM_BUILD_ROOT%{_gamedir}/Maelstrom_Sprites.bin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
