@@ -1,5 +1,5 @@
 Summary:	Rockin' asteroids game - 1980 theme
-Summary(pl):	Gra, w której strzelasz do asteroidów - temat 1980
+Summary(pl):	Gra, w której strzelasz do asteroidów - motyw 1980
 Name:		Maelstrom-1980
 Version:	1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 1980 theme for Maelstrom.
 
 %description -l pl
-Temat 1980 dla Maelstroma.
+Motyw 1980 dla Maelstroma.
 
 %prep
 %setup -q -n Maelstrom_1980
