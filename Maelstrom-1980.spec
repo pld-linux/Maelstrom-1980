@@ -2,9 +2,9 @@ Summary:	Rockin' asteroids game - 1980 theme
 Summary(pl):	Gra, w której strzelasz do asteroidów - motyw 1980
 Name:		Maelstrom-1980
 Version:	1
-Release:	1
+Release:	2
 License:	dunno
-Group:		X11/Application/Games
+Group:		X11/Applications/Games
 Source0:	http://www.devolution.com/~slouken/Maelstrom/add-ons/Maelstrom_1980.tar.gz
 URL:		http://www.devolution.com/~slouken/Maelstrom/add-ons/
 Requires:	Maelstrom
