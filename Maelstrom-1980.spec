@@ -1,5 +1,5 @@
 Summary:	Rockin' asteroids game - 1980 theme
-Summary(pl.UTF-8):   Gra, w której strzelasz do asteroidów - motyw 1980
+Summary(pl.UTF-8):	Gra, w której strzelasz do asteroidów - motyw 1980
 Name:		Maelstrom-1980
 Version:	1
 Release:	3
